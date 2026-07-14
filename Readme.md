@@ -194,3 +194,7 @@ To move this model into an enterprise production environment, we recommend the f
 
 * **API Serving Layer:** Wrap the inference engine in a RESTful API (using FastAPI) to serve predictions in real-time or via scheduled Airflow batch jobs.
 * **Telemetry & Observability:** Monitor prediction distribution and input data over time (using libraries like `EvidentlyAI`) to trigger alert pipelines if feature drift occurs (e.g., if average driver age begins to shift significantly from the training baseline).
+
+### AI use disclaimer
+Gemini was used in the production of this prediction. Only the ipynb notebook, data_dictionary.md, and a copy pasted version of the first 10 lines in both train.csv and score.csv.
+Replit was used to turn the Case Study explanation.docx into a presentation.
