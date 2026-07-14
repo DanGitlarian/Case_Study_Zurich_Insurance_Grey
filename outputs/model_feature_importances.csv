@@ -1,0 +1,32 @@
+Column Name,Pruned Complete (RF),Artificially Completed (RF),Sparse Data (HGB)
+policy_id,Irrelevant / NO,Irrelevant / NO,Irrelevant / NO
+insured_id,Irrelevant / NO,Irrelevant / NO,Irrelevant / NO
+snapshot_date,Irrelevant / NO,Irrelevant / NO,Irrelevant / NO
+policy_effective_date,Irrelevant / NO,Irrelevant / NO,Irrelevant / NO
+policy_expiration_date,Irrelevant / NO,Irrelevant / NO,Irrelevant / NO
+coverage_type,4.31%,3.96%,26.77%
+vehicle_count,7.65%,9.24%,30.17%
+vehicle_avg_age,7.32%,7.09%,1.79%
+driver_count,4.30%,4.14%,0.93%
+driver_avg_age,7.91%,7.70%,0.00%
+years_in_business,7.10%,7.04%,0.00%
+prior_year_mileage_000,11.32%,10.31%,7.44%
+business_type,2.54%,2.54%,0.18%
+state,4.44%,4.29%,0.00%
+prior_apd_claim_count,1.96%,2.13%,1.48%
+prior_al_claim_count,1.22%,1.30%,3.01%
+prior_loss_amount,5.58%,5.95%,0.05%
+deductible,2.98%,2.72%,0.00%
+coverage_limit_000,2.12%,2.16%,0.00%
+annual_premium,7.99%,8.53%,0.00%
+payment_frequency,1.66%,1.65%,0.41%
+risk_score_external,11.75%,11.49%,18.36%
+has_safety_program,2.18%,1.81%,4.41%
+num_heavy_vehicles,3.29%,3.33%,2.21%
+late_payment_count,2.37%,2.60%,2.79%
+claim_count,Irrelevant / NO,Irrelevant / NO,Irrelevant / NO
+claim_paid_amount_current_period,Irrelevant / NO,Irrelevant / NO,Irrelevant / NO
+days_to_first_claim_report,Irrelevant / NO,Irrelevant / NO,Irrelevant / NO
+first_claim_reported_date,Irrelevant / NO,Irrelevant / NO,Irrelevant / NO
+claim_status_current_period,Irrelevant / NO,Irrelevant / NO,Irrelevant / NO
+total_loss_amount,Irrelevant / NO,Irrelevant / NO,Irrelevant / NO
