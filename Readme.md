@@ -15,17 +15,17 @@ The output is a prediction.csv which models the risk factor.
    • Identified 5 major target-leak variables (e.g., claim status, loss amounts).
 
 02 | Data Refining & Multi-Paradigm Setup
-   • Pruned Complete: Zero-noise, lower volume[cite: 2].
-   • Artificially Completed: Mean/mode imputation[cite: 2].
-   • Sparse: Kept raw NaNs intact to leverage native HGB splitting[cite: 2].
+   • Pruned Complete: Zero-noise, lower volume.
+   • Artificially Completed: Mean/mode imputation.
+   • Sparse: Kept raw NaNs intact to leverage native HGB splitting.
 
 03 | Robust Engineering & Validation
-   • Built safe preprocessing pipelines to drop leakage[cite: 2] and handle unseen categoricals[cite: 2].
-   • Designed a Temporal Validation Split (Train: 2020-21, Val: 2022) to mimic production[cite: 2].
+   • Built safe preprocessing pipelines to drop leakage and handle unseen categoricals.
+   • Designed a Temporal Validation Split (Train: 2020-21, Val: 2022) to mimic production.
 
 04 | Performance Benchmarking & Interpretability
-   • Evaluated 3 models[cite: 2]. Resolved the "accuracy-based" feature importance bottleneck[cite: 2].
-   • Unlocked sensitive permutation importances using ROC-AUC (Top drivers: Coverage & Fleet size)[cite: 2].
+   • Evaluated 3 models. Resolved the "accuracy-based" feature importance bottleneck.
+   • Unlocked sensitive permutation importances using ROC-AUC (Top drivers: Coverage & Fleet size).
 
 05 | Production Deployment Roadmap
    • Plan for modularizing into standard python packages, automated CI/CD, and drift monitoring.
