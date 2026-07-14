@@ -30,6 +30,10 @@ The output is a prediction.csv which models the risk factor.
 05 | Production Deployment Roadmap
    • Plan for modularizing into standard python packages, automated CI/CD, and drift monitoring.
 
+
+
+## File System
+```text
 ├── case study explanation.docx              # Business context and task guidelines
 ├── Data Scientist Applied AI ML - Case Study.docx # Official project case study brief
 ├── Readme.md                                # Full documentation (system architecture & setup)
@@ -50,7 +54,8 @@ The output is a prediction.csv which models the risk factor.
     ├── predictions_imputed.csv              # Experimental predictions (Imputed Random Forest)
     ├── predictions_pruned.csv               # Experimental predictions (Pruned Random Forest)
     └── model_feature_importances.csv        # Comprehensive 31-column feature weights matrix
----
+```
+
 
 ## 1. Exploratory Data Analysis (EDA)
 
